@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DocTorV Seminars — 2025 / 2026</title>
+
+  <!-- ===== MathJax (LaTeX rendering) ===== -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      },
+      options: { skipHtmlTags: ['script','noscript','style','textarea','pre'] }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+
+  <!-- ===== Font Awesome (icons) ===== -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- ===== Google Fonts ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet" />
+
+  <!-- ===== Shared Stylesheet ===== -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       LANGUAGE BAR (fixed top strip)
+  ============================================================ -->
+  <div id="lang-bar" role="banner">
+    <span class="lang-label" data-en="Language:" data-it="Lingua:">Language:</span>
+    <input type="checkbox" id="lang-toggle" aria-label="Switch to Italian" />
+    <label for="lang-toggle" class="lang-switch">
+      <!-- IT side -->
+      <span class="flag-label flag-it">🇮🇹 <span>IT</span></span>
+
+      <!-- pill -->
+      <span class="lang-pill"></span>
+
+      <!-- EN side (default) -->
+      <span class="flag-label flag-en active-lang">🇬🇧 <span>EN</span></span>
+    </label>
+  </div>
+
+  <!-- ============================================================
+       MAIN CONTENT — SEMINARS 2025 / 2026 ONLY
+  ============================================================ -->
+  <main id="main">
+
+    <!-- ==================== SEMINARS 2025/2026 ==================== -->
+    <section id="sec-seminars" class="section active" aria-label="Seminars 2025 / 2026">
+
+      <div class="seminars-content">
+
+        <!-- ============================================================
+             YEAR PANEL: 2025/2026 (Starting from October 2025)
+        ============================================================ -->
+        <div class="year-panel active-panel" id="year-2025">
+          <h2 data-en="Seminars 2025 / 2026" data-it="Seminari 2025 / 2026">Seminars 2025 / 2026</h2>
+          <p class="year-desc"
+             data-en="Academic year 2025–2026 · Università degli Studi di Roma Tor Vergata"
+             data-it="Anno accademico 2025–2026 · Università degli Studi di Roma Tor Vergata">
+            Academic year 2025–2026 · Università degli Studi di Roma Tor Vergata
+          </p>
+
+          <!-- ── SEMINAR 1: 06 October 2025 ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="06 October 2025" data-it="06 Ottobre 2025">06 October 2025</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula 2001
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Alessandro Filippo &nbsp;·&nbsp; Università degli Studi di Roma Tor Vergata
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              Walk-based centrality measures in Complex Networks
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              Centrality measures are used in Network Science to identify the most important (central) elements in a complex interconnected system, such as the Internet, a social network, or a protein interaction network.
+
+Among the measures proposed over the years, some quantify the importance of a node based on the number and the length of the walks that start from it. Notably, this problem can be rewritten in terms of matrix functions, which means that it can be efficiently solved using numerical linear algebra tools even when the network is large.
+
+In this talk, we will introduce the most popular walk-based centrality measures for complex networks and discuss some issues related to their computation. Then, we will see how walk combinatorics can be used to devise algorithms for updating some of these measures after a graph perturbation.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 2: 17 October 2025 ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="17 October 2025" data-it="17 Ottobre 2025">17 October 2025</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Martina Miseri &nbsp;·&nbsp; Università degli Studi di Roma Tre
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              Clifford indices: old and new invariants for curves
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              The classification problem has always played a central role in algebraic geometry. To address it, one studies invariants—quantities that describe intrinsic properties of a variety and remain unchanged under suitably well-behaved maps.
+For curves (that is, one-dimensional varieties), a classical and well-known invariant is the Clifford index, which measures how far a curve is from being hyperelliptic, i.e., a double cover of P¹.
+In this seminar, Martina will introduce the Clifford index and discuss its main properties and results, aiming to convey a geometric intuition. Finally, she will mention a work in progress about the definition of a new invariant, the Prym-canonical Clifford index.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 3: 27 October 2025 (28/10/2025 on mat.uniroma2.it) ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="27 October 2025, 14:30 – 16:00" data-it="27 Ottobre 2025, 14:30 – 16:00">27 October 2025, 14:30 – 16:00</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Arne Kuhrs &nbsp;·&nbsp; Paderborn University
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              Tropical principal bundles on metric graphs
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+               Tropical geometry studies a piecewise linear, combinatorial shadow of
+degenerations of algebraic varieties. In many cases, usual
+algebro-geometric objects such as divisors or line bundles on curves
+have tropical analogues that are closely tied to their classical
+counterparts. For instance, the theory of divisors and line bundles on
+metric graphs has been crucial in advances in Brill–Noether theory and
+the birational geometry of moduli spaces.
+
+In this talk, I will present an elementary theory of tropical principal
+bundles on metric graphs, generalizing the case of tropical line bundles
+to bundles with arbitrary reductive structure group. Our approach is
+based on tropical matrix groups arising from the root datum of the
+corresponding reductive group, and leads to an appealing geometric
+picture: tropical principal bundles can be presented as pushforwards of
+line bundles along covers equipped with symmetry data from the Weyl
+group.
+Building on Fratila's description of the moduli space of semistable
+principal bundles on an elliptic curve, we describe a tropicalization
+procedure for semistable principal bundles on a Tate curve. More
+precisely, the moduli space of semistable principal bundles on a Tate
+curve is isomorphic to a natural component of the tropical moduli
+space of principal bundles on its dual metric graph.
+This is based on ongoing work with Andreas Gross, Martin Ulirsch, and
+Dmitry Zakharov.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 4: 14 November 2025 ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="14 November 2025, 16:00 – 17:30" data-it="14 Novembre 2025, 16:00 – 17:30">14 November 2025, 16:00 – 17:30</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Pedro Augusto da Silva Morelli &nbsp;·&nbsp; ICMC, Universidade de São Paulo (São Carlos)
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              Transfer Operators and Banach Space Techniques in Ergodic Theory
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              The study of statistical properties of dynamical systems has witnessed in recent years the development powerful new tool: the functional approach. This method focuses on how measures evolve under the dynamics, rather than on individual trajectories by analyzing the spectral properties of the transfer operator on suitable Banach spaces. In this talk, I will introduce this viewpoint in ergodic theory and illustrate its application through examples. Time permitting, I will also discuss some recent refinements of the classical theory.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 5: 28 November 2025 ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="28 November 2025" data-it="28 Novembre 2025">28 November 2025</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Nicola Ottolini &nbsp;·&nbsp; Università degli Studi di Roma Tor Vergata
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              Unlikely Intersections in Diophantine Geometry
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              Starting from Mordell, many conjectures have been put forward (and proved) about how geometry influences the behaviour of diophantine problems.
+
+It turns out that many of them can be put in a common framework about varieties that for dimensional reasons we do not expect to intersect. Whenever they do we say that this intersection is "unlikely".
+
+In this talk we will introduce the tools to state a quite broad conjecture of this type, known as Zilber-Pink Conjecture, and look at some special cases and consequences.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 6: 12 December 2025 ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="12 December 2025" data-it="12 Dicembre 2025">12 December 2025</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Simone Marrocco &nbsp;·&nbsp; Università degli Studi di Roma Tre
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              Normal Form Techniques in the Analysis of the Kirchhoff Equation
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              The Kirchhoff equation with periodic boundary conditions offers a rich and elegant model for capturing the transverse oscillations of a nonlinear elastic medium. Since its origin in 1876, it has intrigued mathematicians worldwide with its intricate structure and challenging behavior. In this presentation, we explore the fundamental properties of the equation, motivated by both its physical background and deep mathematical significance. Key theoretical aspects are addressed, including local well-posedness and the lifespan of solutions, that are particularly subtle due to the equation's quasi-linear nature.A central component of our approach is the Hamiltonian formulation of the problem, which provides a rigorous and insightful framework for analyzing the solution dynamics. Most notably, we place special emphasis on the role of normal form techniques, which serve as a cornerstone of our analysis. These methods are crucial in overcoming the difficulties posed by the nonlinearities and in gaining a deeper understanding of the long-time behavior of solutions.Our aim is to offer a clear and structured overview of the current challenges, with a particular focus on how normal form transformations can be used to address them effectively.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 7: 30 January 2026 ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="30 January 2026" data-it="30 Gennaio 2026">30 January 2026</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Riccardo Bernardini &nbsp;·&nbsp; Sapienza Università di Roma
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              Upper bounds on class numbers of real quadratic fields
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              After a brief introduction to quadratic fields, we will define their class number and we will explain some techniques to bound it.
+              We will also improve a result from 1971 by Yamamoto.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 8: 09 February 2026 ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="09 February 2026" data-it="09 Febbraio 2026">09 February 2026</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Simmaco Di Lillo &nbsp;·&nbsp; Università degli Studi di Roma Tor Vergata
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              The Geometry of Neural Networks
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+               Deep neural networks, in the infinite-width limit, give rise to isotropic Gaussian processes whose spectral and geometric features encode fundamental information about network architectures and activation choices. In this talk, I present a unified theoretical framework, based on three recent works, which reveals a robust three-regime classification emerging across different spectral and geometric descriptors of random networks
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 9: 23 February 2026 ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="23 February 2026" data-it="23 Febbraio 2026">23 February 2026</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Lucia Celli &nbsp;·&nbsp; University of Luxembourg
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              Quantitative Gaussian approximations and higher-order corrections for wide neural networks
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              This talk presents quantitative central limit theorems for fully
+connected neural networks with both Gaussian and non-Gaussian
+initialization, when the network width tends to infinity and the
+network is evaluated on a finite collection of inputs. I will
+discuss explicit convergence rates in several probabilistic
+metrics (including total variation, Wasserstein, and convex
+distances), as well as extensions to regimes where depth and width
+grow simultaneously.
+
+In the final part, we will discuss multidimensional Edgeworth
+expansions of arbitrary order for neural network outputs with
+Gaussian initialization. These expansions allow one to approximate
+the law of finite-width networks while explicitly capturing their
+non-Gaussian deviations through higher-order cumulants, yielding
+sharp upper and matching lower bounds in total variation
+distance. We will also discuss applications to Bayesian neural
+networks, including quantitative bounds on the error introduced
+when replacing the true prior or posterior distributions with
+their Gaussian or Edgeworth approximations.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 10: 09 March 2026 ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="09 March 2026" data-it="09 Marzo 2026">09 March 2026</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Paolo Bordignon &nbsp;·&nbsp; Leiden University
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              A geometric view on congruences of modular forms
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              The study of Fourier coefficients of modular forms has a long and rich history, from Ramanujan’s conjectures to the modularity theorem relating modular forms to elliptic curves. In this talk, we first present the arithmetic–geometric viewpoint on modular forms provided by modular curves, and use it to study certain congruences. These may first appear as numerical coincidences, but in fact hide structures arising from the geometry and cohomology of modular curves in p-adic setting.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 11: 27 March 2026 ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="27 March 2026, 14:30 – 15:30" data-it="27 Marzo 2026, 14:30 – 15:30">27 March 2026, 14:30 – 15:30</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula 2001
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Rafael Martinez-Vergara &nbsp;·&nbsp; University of Barcelona
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              The emergence of nonsmooth bifurcations in quasiperiodically forced systems
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              This presentation explores the emergence of Strange Non-Chaotic Attractors (SNAs) within quasiperiodically forced dynamical systems. We examine two distinct methodologies to rigorously prove the existence of these unique mathematical structures, focusing on recent results. In this work, we analyse a two-parameter family of quasiperiodically forced maps acting on the cylinder. We establish the existence of a continuous bifurcation curve, along which the system undergoes a nonsmooth period-doubling bifurcation. Furthermore, we demonstrate that at this critical parameter value, the closure of the associated attractor possesses a positive two-dimensional Lebesgue measure. We characterize the resulting fractalization by the divergence of the Lipschitz constant of the attracting invariant curve.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 12: 13 April 2026 ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="13 April 2026" data-it="13 Aprile 2026">13 April 2026</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Wei Chen &nbsp;·&nbsp; Università degli Studi di Roma Tre
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              An Introduction to Complex and Algebraic Hyperbolicity for Surfaces
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              In complex and algebraic geometry, various notions of hyperbolicity have been introduced to study the geometry of projective manifolds of general type. In this talk, we will first introduce the notions of Brody hyperbolicity and algebraic hyperbolicity for smooth projective curves and surfaces, and discuss some classical results. We will then shift to the logarithmic analogue, introducing the algebraic exceptional set associated with the complement of a plane curve and discussing recent progress in this direction.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 13: 20 April 2026 ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="20 April 2026" data-it="20 Aprile 2026">20 April 2026</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Federico Tufo &nbsp;·&nbsp; Alma Mater Studiorum – Università di Bologna
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              Pokémon, chemistry and algebraic geometry
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              What do Pokémon, chemistry, and algebraic geometry have in common? The answer is not just that they are all fun, nor that they all have TV series about them. Rather, they are all concerned with collecting and classifying things! In this talk, I will introduce the idea of classification in algebraic geometry and explain how it can be interpreted depending on what one wants to classify, illustrating this with several examples. Finally, I will briefly describe my own contributions to the classification of Fano fourfolds.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 15: 04 May 2026 ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="04 May 2026, 16:00 – 17:00" data-it="04 Maggio 2026, 16:00 – 17:00">04 May 2026, 16:00 – 17:00</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Federico Ferri &nbsp;·&nbsp; Sapienza Università di Roma
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              Propagation of Singularities and Polarization
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              In this seminar, I will present the problem of the propagation of singularities for differential equations and the corresponding problem of propagation of polarization for systems of differential equations. The problem has been solved for operators of principal type, but the theory is still incomplete for more general operators. Finally, I would like to present an example of an extremely degenerate operator that does not fall within the classical theory, yet for which propagation phenomena still occur. This example arises from differential geometry and concerns certain systems of PDEs related to the curvature tensors of a Riemannian or Lorentzian metric.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 16: 18 May 2026 ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="18 May 2026" data-it="18 Maggio 2026">18 May 2026</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Matteo Verni &nbsp;·&nbsp; Leibniz Universität Hannover / Sorbonne Université
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              The topological Brauer Group
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              The topological Brauer group of a (topological) manifold X is nothing more than the torsion subgroup of its third degree singular cohomology.
+              Its name and significance comes from algebraic geometry: for example, it plays a fundamental role in rationality problems. In this talk we will sketch its basic property, usage, and discuss one method of computing it bringing together topology, group theory and homological algebra, which has seen recent usage.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 17: 25 May 2026 ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="25 May 2026, 14:30 – 15:30" data-it="25 Maggio 2026, 14:30 – 15:30">25 May 2026, 14:30 – 15:30</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Anargyros Dogkas &nbsp;·&nbsp; Università di Pisa
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              Hamiltonian Perturbation Theory in Celestial Mechanics
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              Perturbation theory is the construction of local quasi-integrals through the composition
+              of a series of canonical or near-identity transformations, called perturbation steps. It
+              has been, historically, the fundamental analytical method for the study of nearly
+              integrable Hamiltonian systems, as it allows the study of the local behavior in an
+              otherwise complex dynamical setting, as well as the construction of local analytical
+              solutions, and the study of the effective stability of the trajectories in the associated
+              phase space. Naturally, the construction of such quasi-integrals is a non-convergent
+              process, with the rate of non-convergence heavily depending on the domain that is
+              considered. In celestial mechanics, the domains of fast divergence are called resonances.
+              In their vicinity, stable and unstable manifolds are formed, splitting the phase space into
+              rotation regions, foliated with KAM rotational tori, libration regions, which contain
+              secondary tori, and chaotic domains, where the tori have broken down. In the non-resonant
+              domain, quasi-integrals allow the study of the secular dynamics of celestial bodies, their
+              classification into groups of common origin, and the study of their stability. In contrast,
+              resonant regions (Dogkas &amp; Guido 2026) restrict the applicability domain of such
+              methods. Nevertheless, effective stability estimates can be found in their vicinity
+              (Celletti, Dogkas, et al. 2026), when an optimized selection of the associated parameters
+              is considered, while quasi-integrals can still be defined in the libration regions, deep
+              inside the resonant domain (Dogkas &amp; Vartolomei 2026).
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 18: 08 June 2026 (10/06/2026 on official notice) ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="08 June 2026, 16:00 – 17:00" data-it="08 Giugno 2026, 16:00 – 17:00">08 June 2026, 16:00 – 17:00</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Gabriele Bolli &nbsp;·&nbsp; Sapienza Università di Roma
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              A Mild Approach to Regularity for Variational Inequalities in Optimal Stopping
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              The analytic formulation of optimal stopping problems naturally leads to the study of
+              variational inequalities. However, the existence of classical solutions to these equations
+              is typically precluded: depending on the properties of the underlying diffusion, the value
+              function may fail to attain $C^2$ or even $C^1$ regularity across the free boundary. To
+              investigate the regularity of the value function, this seminar employs the framework of
+              mild solutions. We introduce a penalization scheme, establishing the existence of
+              approximating solutions and their convergence to the true value function. The regularity of
+              these approximants is subsequently derived by exploiting the smoothing properties of the
+              transition semigroup. Finally, under suitable admissibility assumptions on the obstacle, we
+              show how this regularity is transferred from the approximating sequence directly to the
+              value function.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+          <!-- ── SEMINAR 19: 15 June 2026 (10/06/2026 on official notice) ── -->
+          <article class="seminar-card">
+            <div class="seminar-meta">
+              <span class="seminar-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                <span data-en="15 June 2026, 14:30 – 15:30" data-it="15 Giugno 2026, 14:30 – 15:30">15 June 2026, 14:30 – 15:30</span>
+              </span>
+              <span class="seminar-room">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                Aula D'Antoni
+              </span>
+            </div>
+            <div class="seminar-meta" style="margin-top:-6px;">
+              <span class="seminar-speaker">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                Giorgio Grisolia &nbsp;·&nbsp; Sapienza Università di Roma
+              </span>
+            </div>
+            <h3 class="seminar-title">
+              Algebraic structures in homotopy theory
+            </h3>
+            <button class="abstract-toggle" aria-expanded="false">
+              <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              <span data-en="Abstract" data-it="Abstract">Abstract</span>
+            </button>
+            <div class="abstract-body">
+              In topology, the classical notions of equality and isomorphism are frequently replaced by weaker, yet highly efficient, equivalence relations (e.g. homotopy equivalence). Within this framework, it is possible to develop a consistent mathematical theory. This seminar aims to explore the behavior of algebraic structures when translated into this "homotopy context." Specifically, we will analyze the case of monoids.
+              <span class="miur-note">
+                <strong><em>N.B.: this talk is part of the activity of the MIUR Excellence Department Project Mat-Mod@TOV (CUP E83C23000330006).</em></strong>
+              </span>
+            </div>
+          </article>
+
+        </div>
+        <!-- END YEAR PANEL 2025/2026 -->
+
+      </div>
+      <!-- END seminars-content -->
+
+      <footer class="page-footer"
+              data-en="&amp;copy; 2026 DocTorV Seminars — Università degli Studi di Roma Tor Vergata, Department of Mathematics"
+              data-it="&amp;copy; 2026 DocTorV Seminars — Università degli Studi di Roma Tor Vergata, Dipartimento di Matematica">
+        &copy; 2026 DocTorV Seminars — Università degli Studi di Roma Tor Vergata, Department of Mathematics
+      </footer>
+    </section>
+
+  </main><!-- /#main -->
+
+  <!-- ============================================================
+       SHARED JAVASCRIPT
+  ============================================================ -->
+  <script src="./script.js"></script>
+
+</body>
+</html>
